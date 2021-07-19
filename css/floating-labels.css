@@ -1,0 +1,102 @@
+:root {
+  --input-padding-x: 0.75rem;
+  --input-padding-y: 0.75rem;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 420px;
+}
+
+.form-label-group {
+  position: relative;
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.form-label-group label {
+  position: absolute;
+  font-size: 60%;
+  left: 0;
+  top: 0;
+  color: #5890c4;
+  padding-left: 5px;
+  padding-bottom: 2px;
+  cursor: text;
+  opacity: 1;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.form-label-group textarea {
+  resize: none;
+  color: #5890c4;
+  padding-left: 10px;
+  cursor: text;
+  opacity: 1;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.form-label-group textarea::placeholder {
+  font-size: 20px;
+  color: #a3b7ca;
+  transition: all 0.2s;
+}
+.form-label-group textarea:focus::placeholder {
+  color: rgba(0, 0, 0, 0);
+}
+
+.form-label-group .form-control {
+  font-size: inherit;
+  padding-top: 1em;
+  margin-bottom: 2px;
+  border: 0;
+  border-radius: 0;
+  background: 0 0;
+}
+.form-label-group .textarea-control {
+  font-size: inherit;
+  padding-top: 0.5em;
+  margin-bottom: 2px;
+  border: 0;
+  width: 100%;
+  outline: none;
+}
+.form-label-group .form-control::-webkit-input-placeholder {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.form-label-group .form-control::-moz-placeholder {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.form-label-group .form-control:-ms-input-placeholder {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.form-label-group .form-control::placeholder {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.form-label-group
+  .form-control:placeholder-shown:not(:focus)::-webkit-input-placeholder {
+  opacity: 0;
+}
+.form-label-group
+  .form-control:placeholder-shown:not(:focus)::-moz-placeholder {
+  opacity: 0;
+}
+.form-label-group
+  .form-control:placeholder-shown:not(:focus):-ms-input-placeholder {
+  opacity: 0;
+}
+.form-label-group .form-control:placeholder-shown:not(:focus)::placeholder {
+  opacity: 0;
+}
+.form-label-group .form-control:placeholder-shown:not(:focus) + * {
+  font-size: 130%;
+  opacity: 0.5;
+  top: 0.25em;
+}
+.form-label-group .form-control:focus {
+  outline: none;
+}

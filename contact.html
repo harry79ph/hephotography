@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/largenav.css" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/floating-labels.css">
+    <title>HE Photography</title>
+</head>
+
+<body>
+    
+    <section id="loader">
+        <div id="loader-image">
+            <img src="imgs/loader.gif" alt="loading..." />
+            <p>Loading...</p>
+        </div>
+    </section>
+
+    <section id="small-social-media">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-4 icons">
+                <div class="row socials">
+                    <div class="col-3 badge badge-light">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="col-3 badge badge-light">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="col-3 badge badge-light">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="col-3 badge badge-light">
+                        <a href="#"><i class="fab fa-flickr"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nav-small">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="portrait.html">Portrait</a>
+                            <a class="dropdown-item" href="wedding.html">Wedding</a>
+                            <a class="dropdown-item" href="events.html">Events</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section id="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-4">
+                    <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="logo" /></a>
+                </div>
+                <div class="col-4">
+                    <div class="row socials">
+                        <div class="col-3 badge badge-light">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="col-3 badge badge-light">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="col-3 badge badge-light">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <div class="col-3 badge badge-light">
+                            <a href="#"><i class="fab fa-flickr"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="image-grid">
+        <div class="large-navbar">
+            <nav class="side-text">
+                <ul class="main_ul">
+                    <li class="nav_button"><a href="index.html">Home</a></li>
+                    <li class="dropdown_button">
+                        <a href="#!">Portfolio<i class="fas fa-caret-down"></i></a>
+                        <ul class="dropdown_menu hide">
+                            <li><a href="portrait.html">Portrait</a></li>
+                            <li><a href="wedding.html">Wedding</a></li>
+                            <li><a href="events.html">Events</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_button"><a href="about.html">About</a></li>
+                    <li class="nav_button"><a class="current" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container gallery">
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                </ol>
+            </nav>
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <form class="form-signin">
+                            <h4 class="text-light">DROP US A LINE</h4>
+                            <div class="form-label-group">
+                                <input type="text" id="fullName" class="form-control" placeholder=" " required="">
+                                <label for="fullName">Name</label>
+                            </div>
+                            <div class="form-label-group">
+                                <input type="email" id="inputEmail" class="form-control" placeholder=" " required="">
+                                <label for="inputEmail">Email</label>
+                            </div>
+                            <div class="form-label-group">
+                                <input type="email" id="number" class="form-control" placeholder=" "
+                                    required="">
+                                <label for="number">Contact Number</label>
+                            </div>
+                            <div class="form-label-group">
+                                <label for="your-message"></label>
+                                <textarea class="textarea-control" id="your-message" rows="3" placeholder="Your Message"
+                                    required=""></textarea>
+                            </div>
+                            <input type="submit" class="btn btn-gradient" value="Submit">
+                        </form>
+                    </div>
+                    <div class="col-sm-12 col-md-6 p-3">
+                        <h4 class="text-light">FOR MORE INFORMATION</h4>
+                        <p class="text-light">Whether you have a general question or query about our services or prices,
+                            please do not hesitate to contact us, we will be more than happy to anwer them. Sometimes we
+                            are not able to answer your calls as we can be very busy. In that case, please try to send a
+                            text or fill the form on this page and we will get back to you as soon as possible.<br>
+                            In addition to your question, please send some specific information about
+                            your event, like location, duration and guest number. The more information we get, the
+                            better we can figure out your needs. Although we are based in London we are happy to travel
+                            outside London (travel costs may apply).</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 text-light">
+                        <div class="contact-info">
+                            <h4>CONTACT INFO</h4>
+                            <table>
+                                <tr>
+                                    <td><i class="fas fa-phone"></i></td>
+                                    <td>07455854578</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="far fa-envelope"></i></td>
+                                    <td>info@hephoto.co.uk</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i></td>
+                                    <td>London GB</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33415.72461531347!2d-0.15175743409154807!3d51.50149933149716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!5e0!3m2!1sen!2suk!4v1622580116378!5m2!1sen!2suk"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center design-by">
+                    <span>&copy; 2020 <a href="mailto:hmakinist@hotmail.com" target="_blank">Hayrettin ETCI </a>All rights reserved</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/largenav.js"></script>
+</body>
+
+</html>
