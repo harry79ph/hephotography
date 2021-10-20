@@ -1,2 +1,2 @@
 # hephotography
-The latest version of my first photohgraphy page.
+The latest version of my photohgraphy website.
